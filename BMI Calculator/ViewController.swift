@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         else if(bmi > 19 && bmi < 26){
             txtShowComment.text = "Very Good!! Your BMI is Normal"
         }
-        else if(bmi < 26 && bmi < 31){
+        else if(bmi > 26 && bmi < 31){
             txtShowComment.text = "You are overweight. Plase follow healthy diet befor it's late."
         }
         else{
